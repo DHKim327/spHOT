@@ -1,0 +1,24 @@
+# ---- Python build / cache ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# ---- Jupyter / logs / temp ----
+*.ipynb_checkpoints
+
+
+# ---- Data / results ----
+data/
+results/
+
+
+# ---- IDE / editor ----
+.vscode/
+.DS_Store
+*.sublime-workspace
+*.sublime-project
