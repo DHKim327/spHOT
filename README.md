@@ -38,15 +38,15 @@ Please refer to the corresponding configuration instruction under `./configs`.
 <br>The example above is only illustrative.
 <br>In practice, you may provide a **custom load function** during domain embedding.
 <br>
-       **Usage**
-       ```
-       de = DomainEmbedding(...)
-       de.run(adata_func=load_adatas)
-       ```
-       Convention for `load_adatas`
-       <br> - __Input__: adata_dir
-       <br> - __Output__: adatas: list
-       <br>For implementation details, refer to `./src/utils.py`.
+**Usage**
+```
+de = DomainEmbedding(...)
+de.run(adata_func=load_adatas)
+```
+Convention for `load_adatas`
+<br> - __Input__: adata_dir
+<br> - __Output__: adatas: list
+<br>For implementation details, refer to `./src/utils.py`.
 
 __Split information__
 
