@@ -54,7 +54,7 @@ adatas/
 - __Custom adata loading function__:
 <br>The example above is only illustrative.
 <br>In practice, you may provide a **custom load function** during domain embedding.
-<br>
+
     **Usage**
     ```
     de = DomainEmbedding(...)
