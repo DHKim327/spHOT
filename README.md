@@ -45,7 +45,7 @@ Please refer to the corresponding configuration instruction under `./configs`.
   ```
   Convention for `load_adatas`
   <br> - __Input__: adata_dir
-  <br> - __Output__: adatas: list, each adata has sample information on `adata.obs[f'{sample_col}']`
+  <br> - __Output__: adatas: list, each adata has sample information on `adata.obs[f'{sample_col}']` which 'sample_col' uses on "cfgs['MIL']['splits']['sample_col']"
   <br>For implementation details, refer to `./src/utils.py`.
 
 __Split information__
